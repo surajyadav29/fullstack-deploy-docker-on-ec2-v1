@@ -1,0 +1,23 @@
+# Ignore Node modules
+node_modules
+
+# Ignore git folder
+.git
+
+# Ignore log files
+*.log
+
+# Ignore source map files
+*.map
+
+# Ignore IDE/editor files
+.vscode
+*.DS_Store
+
+# Ignore node_modules, git, logs, maps, and IDE/editor files
+node_modules
+.git
+*.log
+*.map
+.vscode
+.DS_Store
