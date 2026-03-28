@@ -1,6 +1,39 @@
-node_modules/
+# Node modules
 backend/node_modules/
 frontend/node_modules/
-.env
-build
-dist
+
+# Build/dist outputs
+backend/dist/
+backend/build/
+frontend/build/
+frontend/dist/
+
+# Logs
+backend/npm-debug.log
+frontend/npm-debug.log
+*.log
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Docker ignore files
+backend/.dockerignore
+frontend/.dockerignore
+nginx/.dockerignore
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Git files
+.git
+.gitignore
+
+# Coverage reports
+backend/coverage/
+frontend/coverage/

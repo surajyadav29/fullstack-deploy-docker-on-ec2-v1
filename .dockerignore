@@ -1,23 +1,20 @@
-# Ignore Node modules
-node_modules
+# Node modules
+backend/node_modules
+frontend/node_modules
 
-# Ignore git folder
-.git
+# Build artifacts (optional, depends on Dockerfile)
+backend/dist
+frontend/build
 
-# Ignore log files
+# Logs
 *.log
 
-# Ignore source map files
-*.map
-
-# Ignore IDE/editor files
-.vscode
-*.DS_Store
-
-# Ignore node_modules, git, logs, maps, and IDE/editor files
-node_modules
+# Git
 .git
-*.log
-*.map
-.vscode
-.DS_Store
+.gitignore
+
+# Docker files
+.dockerignore
+
+# Environment files
+*.env
