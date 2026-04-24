@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build   # ✅ creates production build
+RUN npm run build
 
 # Step 2: Serve with NGINX
 FROM nginx:alpine
